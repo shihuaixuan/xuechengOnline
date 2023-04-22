@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /content
+  port: 63040
+#微服务配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xuecheng-content?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: 12345678
